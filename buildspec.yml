@@ -16,7 +16,7 @@ phases:
       - ls -la
   post_build:
     commands:
-      - echo Deployment completed on `date`
+      - echo Deployment completed on 'date'
 artifacts:
   files:
     - "**/*"
